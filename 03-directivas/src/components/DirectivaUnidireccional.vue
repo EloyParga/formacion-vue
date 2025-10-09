@@ -13,8 +13,6 @@
         <p :style="{ color: isError ? 'red' : 'green', fontWeight: 'bold' }">
             El mensaje se ha enviado correctamente
         </p>
-        
-        
     </div>
 </template>
 
