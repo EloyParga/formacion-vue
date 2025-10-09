@@ -1,5 +1,6 @@
-/* Ejemplo de Renderizados Selectivos  ( v-if, v-else, v-else-if, v-show)*/
+/* Ejemplo de Renderizados Selectivos  ( v-if, v-else, v-else-if, v-show )*/
 // Las Directivas van a estar relacionados con el renderizado del Virtual DOM
+// Diferencias: v-if elimina el elemento del DOM y v-show solo lo oculta
 
 <template>
     <div>
