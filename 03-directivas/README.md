@@ -52,7 +52,7 @@ Permite renderizar listas de elementos a partir de un array.
 
 
 
-### 🔹 3. `v-bind`
+### 🔹 3. Directiva de Bindeo Unidireccional `v-bind`
 Sirve para **enlazar atributos de HTML** a datos reactivos.
 
 #### 🧠 Ejemplo práctico:
@@ -70,15 +70,52 @@ data() {
 }
 ```
 
-### 🔹 4. `v-on`
-### 🔹 5. `v-model`
+### 🔹 4. Directiva de Evento `v-on`
+Escucha eventos del DOM, como clics, inputs, etc.
 
+#### 🧠 Ejemplo práctico:
+```html
+<button v-on:click="incrementarContador">Haz clic</button>
+<!-- Versión corta -->
+<button @click="incrementarContador">Haz clic</button>
+```
+
+```javascript
+methods: {
+  incrementarContador() {
+    this.contador++;
+  }
+}
+```
+
+
+### 🔹 5. `v-model`
+Permite crear un enlace bidireccional entre un elemento del DOM y los datos del componente.
+
+#### 🧠 Ejemplo práctico:
+```html
+<input v-model="nombre" placeholder="Escribe tu nombre" />
+<p>Hola, {{ nombre }}!</p>
+```
 
 ## ⚙️ Directivas Personalizadas
 
 Además de las directivas nativas, podemos crear nuestras propias directivas para manipular el DOM directamente.
 
-``PROXIMAMENTE....``
+#### 🧠 Ejemplo práctico:
+Ejemplo de directiva personalizada que pone el foco en un input al montarse
+
+```html
+<input v-focus />
+```
+
+```javascript
+app.directive('focus', {
+  mounted(el) {
+    el.focus();
+  }
+});
+```
 
 ---
 
@@ -89,8 +126,8 @@ Además de las directivas nativas, podemos crear nuestras propias directivas par
 | `v-if` / `v-else` | Mostrar u ocultar elementos | `v-if="isActive"`     |
 | `v-for`   | Repetir elementos          | `v-for="item in lista"` |
 | `v-bind`  | Enlazar atributos dinámicos | `:src="imagen"`       |
-| `v-on`    | Proximamente           | `proximamente`     | 
-| `v-model` | proximamente       | `proximamente`    |
+| `v-on`    | 	Escuchar eventos           | `@click="accion"`     | 
+| `v-model` | Enlace bidireccional       | `v-model="nombre"`    |
 
 ---
 
@@ -111,5 +148,5 @@ Dominar su uso te permitirá crear interfaces reactivas, limpias y declarativas 
 ✨ **Autor:** Eloy Parga  
 📅 **Proyecto:** Formación Vue.js  
 📁 **Tema:** 03 - Directivas
-```
+
 

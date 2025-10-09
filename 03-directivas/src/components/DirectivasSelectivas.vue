@@ -19,5 +19,26 @@
 </script>
 
 <style scope>
+    .selectivas-container {
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
 
+  h2 {
+    color: #42b983;
+    margin-bottom: 10px;
+  }
+
+  .mayor {
+    color: #2d862d;
+    font-weight: bold;
+  }
+
+  .menor {
+    color: #d9534f;
+    font-weight: bold;
+  }
 </style>
