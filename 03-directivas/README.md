@@ -1,6 +1,6 @@
 # 🧭 Tema 03 — Directivas en Vue.js
 
-![Vue Logo](https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue Logo" width="150" />
 
 ## 📘 ¿Qué son las Directivas?
 
