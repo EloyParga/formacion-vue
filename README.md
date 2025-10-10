@@ -14,6 +14,7 @@ El objetivo es proporcionar una guía estructurada para que desarrolladores de t
 - 03 Directivas 
 - 04 Formularios
    - 04.1 Ejercicio Practico - Formulario de Profesores
+- 05 Comunicación entre Componentes y ciclo de Vida
 - Proximamente...
 
 ---
