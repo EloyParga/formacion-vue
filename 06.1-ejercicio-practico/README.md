@@ -1,6 +1,3 @@
-Perfecto 😎 Aquí tienes el README para el **ejercicio práctico 06.1 — Factura con datos computados**, siguiendo el formato de tus anteriores README:
-
----
 
 # 📝 Ejercicio Práctico 06.1: Factura con Datos Computados
 
@@ -136,7 +133,3 @@ Aplica estilos CSS para resaltar los totales y mejorar la legibilidad: bordes, s
 
 ¡Pon a prueba tus conocimientos de **reactividad** y **datos computados** en Vue! 🚀
 
----
-
-Si quieres, puedo hacer también un **mini ejemplo de código base para este ejercicio** en Composition API listo para que los alumnos lo completen paso a paso.
-¿Quieres que haga eso?
