@@ -1,13 +1,14 @@
 <template>
   <div class="post-details">
-    <h3>{{ title }}</h3>
-    <p>{{ content }}</p>
-    <button @click="$emit('showAlert')">Show Alert</button>
+    <h3>{{ props.title }}</h3>
+    <p>{{ props.content }}</p>
+    <button @click="showAlert">Show Alert</button>
   </div>
 </template>
 
 <script setup>
-    defineProps({
+    import { defineProps, defineEmits} from 'vue';
+    const props = defineProps({
         title: {
             type: String,
             required: true
@@ -18,6 +19,16 @@
             default: 'No content available'
         }
     });
+    
+    // Emitting event is handled directly in the template with $emit
+    const emit = defineEmits(['showAlert']);
+    
+    function showAlert() {
+        alert("Boton Click en "+ props.title + " (Enviado desde el Hijo)");
+        emit('showAlert');
+    }
+    
+
         
 </script>
 

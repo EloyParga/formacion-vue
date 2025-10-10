@@ -7,7 +7,7 @@
             :key="post.id" 
             :title="post.title" 
             :content="post.content"
-            @showAlert="showAlert('Hello from ' + post.title)"
+            @showAlert="showAlert('Hello from ' + post.title + ' (Enviado desde el Padre)')"
         /> 
     </div>
   </div>
