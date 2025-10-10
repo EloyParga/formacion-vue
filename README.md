@@ -34,7 +34,7 @@ Sigue estos pasos para clonar e instalar el proyecto en tu máquina local:
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/formacion-vue.git
+   git clone https://github.com/EloyParga/formacion-vue.git
    ```
 
 2. **Accede al directorio del proyecto:**
@@ -80,7 +80,6 @@ En el proyecto, puedes ejecutar los siguientes comandos:
 - [Documentación oficial de Vue.js](https://vuejs.org/)
 - [Guía de Vue Router](https://router.vuejs.org/)
 - [Guía de Pinia (Gestión de estado)](https://pinia.vuejs.org/)
-- [Play List YouTube](https://www.youtube.com/playlist?list=PLDllzmccetSNgykILXnHMeuO-y-gRcF-i)
 
 ---
 
@@ -92,7 +91,7 @@ En el proyecto, puedes ejecutar los siguientes comandos:
 
 ## 🧑‍💻 Autor
 
-**Tu Nombre**  
+**Eloy Parga**  
 [GitHub](https://github.com/EloyParga) | [LinkedIn](https://www.linkedin.com/in/eloy-parga)
 
 ---
