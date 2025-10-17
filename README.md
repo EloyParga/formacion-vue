@@ -16,6 +16,8 @@ El objetivo es proporcionar una guía estructurada para que desarrolladores de t
    - 04.1 Ejercicio Practico - Formulario de Profesores
 - 05 Comunicación entre Componentes y ciclo de Vida
 - 06 Datos Computados
+   - 06.1 Ejercicio Practico - Formulario Dinámico
+- 07 Directivas Personalizadas
 - Proximamente...
 
 ---
