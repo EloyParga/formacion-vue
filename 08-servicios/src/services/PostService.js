@@ -4,7 +4,7 @@ class PostService {
     posts 
 
     constructor() {
-        this.posts = ref([])
+        this.posts = ref([]);
     }
 
     getAllPosts() {
@@ -15,11 +15,12 @@ class PostService {
         try{
             const response = await fetch('https://jsonplaceholder.typicode.com/posts')
             const json = await response.json()
-            this.psts.value = await json
+            this.posts.value = await json
         }catch(e){
             console.error("Error fetching posts:", e)
         }
     }
 }
 
-export default new PostService();
+// Exportamos una instancia única del servicio
+export default PostService;
