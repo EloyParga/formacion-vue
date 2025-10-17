@@ -18,7 +18,19 @@ El objetivo es proporcionar una guía estructurada para que desarrolladores de t
 - 06 Datos Computados
    - 06.1 Ejercicio Practico - Formulario Dinámico
 - 07 Directivas Personalizadas
-- Proximamente...
+- 08 Servicios
+- 09 Estilos [Proximamente]
+- 10 Enrutado [Proximamente]
+- 11 Enrutado con Servicios [Proximamente]
+- 12 Estructuras de Autenticación [Proximamente]
+- 13 Auth contra Backend [Proximamente]
+- 14 Auth contra Firebase [Proximamente]
+- 15 Social Login [Proximamente]
+- 16 Auth contra AWS [Proximamente]
+- 17 Auth contra Azure AD [Proximamente]
+- 18 VUEX [Proximamente]
+- 19 PINIA [Proximamente]
+- 20 Cookies y Sesiones [Proximamente]
 
 ---
 
