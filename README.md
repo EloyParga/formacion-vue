@@ -19,8 +19,8 @@ El objetivo es proporcionar una guía estructurada para que desarrolladores de t
    - 06.1 Ejercicio Practico - Formulario Dinámico
 - 07 Directivas Personalizadas
 - 08 Servicios
-- 09 Estilos [Proximamente]
-- 10 Enrutado [Proximamente]
+- 09 Estilos 
+- 10 Enrutado 
 - 11 Enrutado con Servicios [Proximamente]
 - 12 Estructuras de Autenticación [Proximamente]
 - 13 Auth contra Backend [Proximamente]
