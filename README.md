@@ -22,12 +22,12 @@ El objetivo es proporcionar una guía estructurada para que desarrolladores de t
 - 09 Estilos 
 - 10 Enrutado 
 - 11 Enrutado con Servicios [En Progreso]
-- 12 Estructuras de Autenticación [Proximamente]
-- 13 Auth contra Backend [Proximamente]
-- 14 Auth contra Firebase [Proximamente]
-- 15 Social Login [Proximamente]
-- 16 Auth contra AWS [Proximamente]
-- 17 Auth contra Azure AD [Proximamente]
+- 12 Estructuras de Autenticación 
+- 13 Auth contra Backend [En Progreso]
+- 14 Auth contra Firebase [En Progreso]
+- 15 Social Login [En Progreso]
+- 16 Auth contra AWS [En Progreso]
+- 17 Auth contra Azure AD [En Progreso]
 - 18 VUEX [Proximamente]
 - 19 PINIA [Proximamente]
 - 20 Cookies y Sesiones [Proximamente]
