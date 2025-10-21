@@ -21,7 +21,7 @@ El objetivo es proporcionar una guía estructurada para que desarrolladores de t
 - 08 Servicios
 - 09 Estilos 
 - 10 Enrutado 
-- 11 Enrutado con Servicios [Proximamente]
+- 11 Enrutado con Servicios [En Progreso]
 - 12 Estructuras de Autenticación [Proximamente]
 - 13 Auth contra Backend [Proximamente]
 - 14 Auth contra Firebase [Proximamente]
